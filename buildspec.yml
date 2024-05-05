@@ -5,18 +5,12 @@ phases:
     runtime-versions:
       python: 3.12
     commands:
-      - echo "Install phase: Install dependencies, if any"
       - pip install robotframework
       - pip install robotframework-seleniumlibrary
-
   build:
     commands:
-      - echo "Build phase: Execute build commands here"
-      # Run the server
       - python demoapp/server.py &
-      # Wait for the server to start
       - sleep 10
-      # Example command: Run tests
       - robot --headless login_tests/valid_login.robot
 
  
