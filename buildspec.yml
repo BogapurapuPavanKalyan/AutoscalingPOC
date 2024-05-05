@@ -11,6 +11,6 @@ phases:
     commands:
       - python demoapp/server.py &
       - sleep 10
-      - robot --headless login_tests/valid_login.robot
+      - robot login_tests/valid_login.robot
 
  
