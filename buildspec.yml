@@ -11,6 +11,7 @@ phases:
     commands:
       - python demoapp/server.py &
       - sleep 10
-      - robot login_tests/valid_login.robot
+      - robot --variable BROWSER:headlessFirefox login_tests/valid_login.robot
+
 
  
