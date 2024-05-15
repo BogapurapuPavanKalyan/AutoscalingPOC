@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Simple HTTP server for Robot Framework web testing demo.
+"""simple HTTP server for Robot Framework web testing demo.
 
 Usage:  server.py [port]
 
